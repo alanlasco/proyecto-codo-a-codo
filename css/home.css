@@ -27,6 +27,7 @@
     font-size: 9.5vw;
   }
 }
+
 .seccionHome {
   flex-wrap: wrap;
   width: 100%;
@@ -43,8 +44,8 @@
 }
 
 .botonExplorar {
-  margin-top: 1.3vh;
-  padding: 0.5rem 1.6rem;
+  margin-bottom: 10vh;
+  padding: 0.8rem 2rem;
   border: 1px solid #2c2c2c;
   display: flex;
   align-items: center;
