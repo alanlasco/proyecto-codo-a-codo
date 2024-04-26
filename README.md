@@ -43,8 +43,8 @@ Esta página está disponible para todas las versiones de navegadores.
 * **Santiago Bravo** - [Santiago Bravo](https://github.com/SantiBravo7)
 * **Ivo Barrionuevo** - [Ivo Barrionuevo](https://github.com/IvolinD)
 
-| [<img src="https://avatars.githubusercontent.com/u/114081375?v=4" width=115><br><sub>Dixy Stardust</sub>]([https://github.com/](https://github.com/)) | [<img src="https://avatars.githubusercontent.com/u/61526254?v=4 " width=115><br><sub>Alan_Lasco</sub>]([https://github.com/](https://github.com/))| [<img src="https://avatars.githubusercontent.com/u/93299765?v=4" width=115><br><sub>SantiBravo7</sub>]([https://github.com/](https://github.com/)) | [<img src="https://avatars.githubusercontent.com/u/164381922?v=4"width=115><br><sub>IvolinD</sub>]([https://github.com/](https://github.com/))
-| :---: | :---: | :---: |
+|| :---: || [<img src="https://avatars.githubusercontent.com/u/114081375?v=4" width=115><br><sub>Dixy Stardust</sub>]([https://github.com/](https://github.com/)) || :---: || [<img src="https://avatars.githubusercontent.com/u/61526254?v=4 " width=115><br><sub>Alan_Lasco</sub>]([https://github.com/](https://github.com/)) || :---: || [<img src="https://avatars.githubusercontent.com/u/93299765?v=4" width=115><br><sub>SantiBravo7</sub>]([https://github.com/](https://github.com/)) || :---: || [<img src="https://avatars.githubusercontent.com/u/164381922?v=4" width=115><br><sub>IvolinD</sub>]([https://github.com/](https://github.com/))
+|| :---: ||
 
 ## Desarrollo del Proyecto 📁 :bulb:
 
