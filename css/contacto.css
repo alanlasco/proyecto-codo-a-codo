@@ -23,6 +23,9 @@
   margin: 0 auto;
   height: 100vh;
 }
+input {
+  border-radius: 4px;
+}
 .datos {
   display: flex;
   flex-direction: column;
