@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Trajan Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trajan Pro Regular"),
+    url("../fonts/TrajanPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Trajan Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trajan Pro Bold"),
+    url("../fonts/TrajanPro-Bold.woff") format("woff");
+}
+
+.formulario {
+  display: flex;
+
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+.datos {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.checkBox {
+  padding-bottom: 2em;
+}
+
+.contenedorDelSelect {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2em;
+}
+
+.preguntaDelSelect {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.contenedorDelSubmit {
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+}
+option {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .datos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-gap: 2em;
+  }
+  .email {
+    grid-area: 2/1 / span 1 / span 2;
+  }
+  .contenedorDelSelect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .select {
+    grid-area: 1/2 / span 1 / span 1;
+  }
+  .preguntaDelSelect {
+    text-align: left;
+  }
+}
