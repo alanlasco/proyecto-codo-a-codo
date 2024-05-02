@@ -51,7 +51,10 @@
   height: 100vh;
 }
 input {
+  border: none;
   border-radius: 4px;
+  border-top-color: #2c2c2c;
+  border-bottom-color: #2c2c2c;
 }
 .datos {
   display: flex;
@@ -76,7 +79,7 @@ input {
 }
 
 .contenedorDelSubmit {
-  margin: 1em;
+  margin: 1.5em;
   display: flex;
   justify-content: center;
 }
@@ -133,5 +136,10 @@ option {
   }
   .botonSubmit {
     padding: 0.8rem 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .formulario {
+    width: 50%;
   }
 }
