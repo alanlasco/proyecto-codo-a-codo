@@ -14,9 +14,10 @@
     url("../fonts/TrajanPro-Bold.woff") format("woff");
 }
 .subTexto {
+  margin-top: 5vh;
   font-family: "Trajan Pro Bold", sans-serif;
   color: rgb(14, 13, 13);
-  font-size: 4vh;
+  font-size: 7vw;
   text-align: center;
 }
 .texto {
@@ -31,7 +32,6 @@
   align-items: center;
   margin: 0 auto;
   flex-direction: column;
-  margin-bottom: 1em;
 }
 .imagenContacto {
   position: center;
@@ -50,45 +50,45 @@
   width: 100%;
   height: 100vh;
 }
-input {
+.formItem {
   border: none;
   border-radius: 4px;
   border-top-color: #2c2c2c;
   border-bottom-color: #2c2c2c;
+  height: 3vh;
 }
 .datos {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2vh;
 }
 .checkBox {
-  padding-bottom: 1em;
+  padding-bottom: 1.5vh;
 }
 
 .contenedorDelSelect {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 1em;
+  margin-bottom: 3vh;
 }
 
 .preguntaDelSelect {
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .contenedorDelSubmit {
-  margin: 1.5em;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 option {
   text-align: center;
 }
 .botonSubmit {
-  margin-bottom: 10vh;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 2rem;
   border: 1px solid #2c2c2c;
   display: flex;
   align-items: center;
@@ -103,6 +103,9 @@ option {
   position: relative;
   overflow: hidden;
   font-weight: bold;
+}
+.select {
+  height: 4vh;
 }
 @media screen and (min-width: 768px) {
   .datos {
@@ -121,6 +124,7 @@ option {
   .select {
     height: 2.5em;
     grid-area: 1/2 / span 1 / span 1;
+    align-self: center;
   }
   .checkBox {
     grid-area: 3/1 / span 1 / span 2;
@@ -132,7 +136,7 @@ option {
     height: 35vh;
   }
   .subTexto {
-    font-size: 5.5vh;
+    font-size: 3.5vw;
   }
   .botonSubmit {
     padding: 0.8rem 2rem;
@@ -141,5 +145,14 @@ option {
 @media screen and (min-width: 1024px) {
   .formulario {
     width: 50%;
+  }
+  .contenedorDelSelect {
+    margin-bottom: 1vh;
+  }
+}
+@media screen and (min-height: 667px) {
+  .contenedorFormulario {
+    height: fit-content;
+    padding-bottom: 4.5vh;
   }
 }
