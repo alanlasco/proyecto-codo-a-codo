@@ -1,17 +1,12 @@
 body {
+  padding: 0;
   margin: 0;
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
 }
 .nav {
   text-align: center;
 }
-.home {
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .text {
   text-align: center;
 }
