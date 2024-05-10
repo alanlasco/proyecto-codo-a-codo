@@ -206,14 +206,14 @@
         <img class="imagenContacto" src="img/pxfuel(1920x400)final.jpg" alt=" Assassin´s Creed">
         <p class="subTexto">¿Te gustaría recibir noticias de la saga?</p>
       </div>
-      <form class="formulario" action="post">
+      <form class="formulario">
 
         <div class="datos">
           <input class="formItem nombre" type="text" placeholder="Nombre">
           <input class="formItem apellido" type="text" placeholder="Apellido">
           <input class="formItem email" type="email" placeholder="Dirección de email">
           <div class="checkBox">
-            <input type="checkbox" id="politicasDePrivacidad">
+            <input class="inputCheckBox" type="checkbox" id="politicasDePrivacidad">
             <span class="texto" for="politicasDePrivacidad">Acepto la <a href="">Política de Privacidad</a>. (Puedas
               darte de baja
               en
@@ -227,7 +227,7 @@
           <input class="inputArchivo" type="file" name="image" id="">
         </div>
         <div class="contenedorDelSelect">
-          <p class="texto preguntaDelSelect">¿Como te enteraste de nuestra pagina?</p>
+          <p class="texto preguntaDelSelect">¿Como te enteraste de nuestra pagina? (opcional)</p>
           <select class="select" name="select" id="seleccion">
             <option value="value1">Por Redes sociales</option>
             <option value="value2">Por recomendación</option>
@@ -255,7 +255,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
+  <script src="js/formulario.js"></script>
 </body>
 
 
