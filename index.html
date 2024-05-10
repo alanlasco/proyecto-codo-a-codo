@@ -214,11 +214,17 @@
           <input class="formItem email" type="email" placeholder="Dirección de email">
           <div class="checkBox">
             <input type="checkbox" id="politicasDePrivacidad">
-            <label class="texto" for="politicasDePrivacidad">Acepto la <a href="">Política de Privacidad</a>. (Puedas
+            <span class="texto" for="politicasDePrivacidad">Acepto la <a href="">Política de Privacidad</a>. (Puedas
               darte de baja
               en
-              cualquier momento.) </label>
+              cualquier momento.) </span>
           </div>
+        </div>
+        <div class="contenedorArchivo">
+          <p class="texto textoArchivo">¿Tenes dificultades para pasar un nivel? Subí una captura del juego y te
+            ayudamos (opcional)
+          </p>
+          <input class="inputArchivo" type="file" name="image" id="">
         </div>
         <div class="contenedorDelSelect">
           <p class="texto preguntaDelSelect">¿Como te enteraste de nuestra pagina?</p>
@@ -231,6 +237,7 @@
 
           </select>
         </div>
+        <div class="error"></div>
         <div class="contenedorDelSubmit">
           <input class="botonSubmit" type="submit" value="Suscribirme">
         </div>
