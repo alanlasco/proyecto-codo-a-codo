@@ -2,15 +2,16 @@
   .contenedorDeImagenes {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
-
   .contenedorDeImagenes img {
-    width: 100%;
+    width: 75%;
+    height: fit-content;
+    
   }
 
   .contenedorDeImagenes span {
     color: #870f1f;
-    font-size: 23px;/**/
   }
 
   .epigrafe {
@@ -25,20 +26,21 @@
     margin-top: 0;
     background-color: #852835;
     transition: 0.7s;
-  }
+    color: rgb(255, 255, 255);
+    
 
-  .epigrafe span {
-    color: #870f1f;
-    font-size: 2em;
+  }
+  .epigrafe a:hover {
+    margin-top: 0;
+    transition: 0.7s;
+    color: rgb(255, 255, 255);
   }
 
   .enlace {
     text-decoration: none;
     color: #510812;
-  }
-
-  .enlace:hover {
-    color: rgb(255, 255, 255);
+    font-size:2.3em;
+    width: 100%;
   }
 
   .botonTodosLosJuegos{
@@ -46,6 +48,7 @@
     justify-content: center;
     margin: 0 auto;
     margin-top: 3vh;
+    margin-bottom: 1em;
   }
 
   .button {
@@ -53,7 +56,6 @@
     border: 1px solid #2c2c2c;
     display: flex;
     align-items: center;
-  
     background-color: #1a1a1a;
     color: #ffffff;
     font-size: 1.2rem;
@@ -110,7 +112,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2.5em;
-    margin-bottom: 7px;
+  
   }
 
   .contenedorDeImagenes img {
@@ -134,19 +136,12 @@
     transition: 0.7s;
   }
 
-  .epigrafe span {
-    color: #870f1f;
-    font-size: 2em;
-  }
-
-  .epigrafe span:hover {
-    color: #f7f7f7;
-    font-size: 2em;
-  }
-
   .enlace {
     text-decoration: none;
     color: #4a0e16;
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
   }
 
   .enlace:hover {
@@ -159,6 +154,8 @@
     align-content: center;
     margin: 0 auto;
     height: fit-content;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   .button {
