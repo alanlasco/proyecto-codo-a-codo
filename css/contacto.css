@@ -140,6 +140,10 @@ option {
 }
 
 @media screen and (min-width: 768px) {
+  .formulario {
+    width: 55%;
+  }
+
   .datos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -181,11 +185,15 @@ option {
   .botonSubmit {
     padding: 0.8rem 2rem;
   }
+
+  .formItem {
+    height: 4vh;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .formulario {
-    width: 50%;
+    width: 40%;
   }
 
   .contenedorDelSelect {
@@ -194,6 +202,10 @@ option {
 
   .subTexto {
     font-size: 3vw;
+  }
+
+  .formItem {
+    height: 3vh;
   }
 }
 
