@@ -1,0 +1,42 @@
+.tituloSinopsis {
+    font-family: "Trajan Pro Bold", sans-serif;
+    color: whitesmoke;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1em;
+    text-shadow: 2px 5px 5px rgb(6, 6, 6);
+    -webkit-text-stroke: 0.3px black;
+}
+
+.textoSinopsis {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(117, 225, 252);
+    font-size: 1.6vh;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 2rem;
+    padding: 1rem;
+    text-shadow: 3px 3px 3px rgb(29, 23, 103);
+    -webkit-text-stroke: 0.2px rgba(112, 65, 0, 0.965);
+}
+
+.sinopsis {
+    background-color: rgba(0, 0, 0, 0.975);
+    padding: 2em;
+    margin-top: 1%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+/*--------------------------------M.Queries 768px-------------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+    .titulosinopsis {
+        font-size: 2vw;
+    }
+}

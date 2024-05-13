@@ -3,38 +3,42 @@
     color: whitesmoke;
     font-size: 5vw;
     text-align: center;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     text-shadow: 2px 5px 5px rgb(6, 6, 6);
     -webkit-text-stroke: 0.3px black;
 }
 
-@media screen and (min-width: 768px) {
-    .tituloLibros {
-        font-size: 3vw;
-    }
-}
-
 .sectionLibros {
-    background-color: rgba(11, 10, 10, 0.701);
-    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.975);
     justify-content: center;
     text-align: center;
     align-items: center;
     align-content: center;
 }
 
-.sectionLibros img {
-    width: 300px;
-    height: 500px;
+
+.sectionLibros div img {
+    width: 380px;
+    height: 520px;
     border-radius: 0.8%;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 3.5em;
+    padding: 1.5%;
+    margin-bottom: 2rem;
+
 }
 
 .carouselLibros {
-    background-color: rgba(146, 52, 1, 0.875);
+    background-color: rgba(255, 89, 0, 0.244);
     align-items: center;
     align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------------------M.Queries 768px-------------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+    .tituloLibros {
+        font-size: 3vw;
+    }
 }

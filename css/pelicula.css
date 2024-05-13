@@ -1,0 +1,49 @@
+.tituloPelicula {
+    font-family: "Trajan Pro Bold", sans-serif;
+    color: whitesmoke;
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 3rem;
+    text-shadow: 2px 5px 5px rgb(6, 6, 6);
+    -webkit-text-stroke: 0.3px black;
+}
+
+.sectionPelicula {
+    background-color: rgba(0, 0, 0, 0.975);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+}
+
+.sectionPelicula div {
+    padding: 2em;
+
+}
+
+.sectionPelicula ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(253, 181, 181, 0.92);
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1vw;
+    text-shadow: 2px 5px 5px rgba(255, 55, 55, 0.941);
+    -webkit-text-stroke: 0.2px rgba(94, 80, 80, 0.792);
+}
+
+.textoPelicula {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(253, 181, 181, 0.92);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*--------------------------------M.Queries 768px-------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+    .tituloPelicula {
+        font-size: 3vw;
+    }
+}
