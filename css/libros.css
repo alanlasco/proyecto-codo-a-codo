@@ -5,8 +5,8 @@
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    text-shadow: 2px 5px 5px rgb(6, 6, 6);
-    -webkit-text-stroke: 0.3px black;
+    text-shadow: 2px 5px 5px rgb(255, 77, 0);
+    -webkit-text-stroke: 0.3px rgba(22, 21, 21, 0.768);
 }
 
 .sectionLibros {
@@ -17,28 +17,54 @@
     align-content: center;
 }
 
-
 .sectionLibros div img {
+    padding: 2%;
     width: 380px;
     height: 520px;
     border-radius: 0.8%;
-    padding: 1.5%;
-    margin-bottom: 2rem;
-
+    margin-bottom: 2em;
 }
 
 .carouselLibros {
-    background-color: rgba(255, 89, 0, 0.244);
+    background-color: rgba(64, 0, 0, 0.737);
     align-items: center;
     align-content: center;
-    width: 100%;
-    height: 100%;
+}
+
+
+/*--------------------------------M.Queries 320px-------------------------------------------------------*/
+/*
+@media screen and (min-width: 320px) {
+    .tituloLibros {
+        font-size: 10vw;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .sectionLibros div {
+        padding-top: 1.5%;
+
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .sectionLibros div img {
+        width: 140px;
+        height: 220px;
+    }
 }
 
 /*--------------------------------M.Queries 768px-------------------------------------------------------*/
-
+/*
 @media screen and (min-width: 768px) {
     .tituloLibros {
-        font-size: 3vw;
+        font-size: 8vw;
+        text-align: center;
+    }
+    
+    .sectionLibros div img {
+        width: 280px;
+        height: 460px;
     }
 }
