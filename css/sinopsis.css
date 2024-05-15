@@ -16,7 +16,7 @@
 .tituloSinopsis {
     font-family: "Trajan Pro Bold", sans-serif;
     color: whitesmoke;
-    font-size: 6vw;
+    font-size: 7vw;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1em;
@@ -38,16 +38,15 @@
     text-align: left;
     line-height: 1.5;
     font-weight: inherit;
-    padding: 2rem;
+    padding: 1.5rem;
     text-shadow: 1px 1px 1px 1px rgb(20, 140, 253);
     -webkit-text-stroke: 0.3px rgba(34, 0, 255, 0.965);
 }
 
 .textoSinopsis::first-letter {
-    font-size: 5vh;
+    font-size: 4.8vh;
     margin-right: 0.1em;
 }
-
 
 .video-container {
     position: relative;
@@ -88,55 +87,5 @@
 
     .iFrame {
         grid-area: 2/1 / 1 /2;
-    }
-}
-
-/*--------------------------------M.Queries 320px-------------------------------------------------------*/
-/*
-@media screen and (min-width:320px) {
-    .tituloSinopsis {
-        font-size: 10vw;
-    }
-    
-    .sinopsis {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgba(0, 0, 0, 0.975);
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .textoSinopsis {
-        text-align: center;
-        line-height: 1.5;
-        font-weight:inherit;
-        margin: 0.1em;
-        font-size: 4.4vw;
-    }
-
-    .sinopsis iframe {
-        width: 280px;
-        height: 280px;
-    } 
-}
-
-/*--------------------------------M.Queries 768px-------------------------------------------------------*/
-/*
-@media screen and (min-width: 768px) {
-    .tituloSinopsis {
-        font-size: 7.5vw;
-    }
-    
-    .sinopsis iframe {
-        width: 620px;
-        height: 480px;  
-    }
-
-    .textoSinopsis {
-        text-align: center;
-        line-height: 1.5;
-        font-weight:inherit;
-        font-size: 2.1vw;
     }
 }
