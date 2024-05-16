@@ -17,7 +17,7 @@
 }
 
 .icono-navbar {
-  width: 30px;
+  width: 2.5rem;
   height: auto;
   margin-right: 15px;
   /* Espacio entre el icono y el texto */
@@ -31,7 +31,7 @@
 }
 
 .navbar-links ul li {
-  margin-right: 20px;
+  margin-right: 1.80em;
 }
 
 .navbar-links ul li:last-child {
