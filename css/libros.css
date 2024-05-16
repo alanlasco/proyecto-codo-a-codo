@@ -1,4 +1,5 @@
 .sectionLibros {
+
     background-color: rgba(0, 0, 0, 0.975);
     justify-content: center;
     text-align: center;
@@ -15,7 +16,7 @@
 }
 
 .carouselLibros {
-    position:relative;
+    position: relative;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +44,7 @@
 /*--------------------------------M.Queries 320px-------------------------------------------------------*/
 
 @media screen and (max-width: 320px) {
-     
+
     .sectionLibros div img {
         width: 140px;
         height: 220px;
