@@ -31,18 +31,18 @@
         </div>
         <div class="navbar-links">
           <ul>
-            <li><a href="#seccionHome">HOME</a></li>
-            <li><a href="#sipnosis">SINOPSIS</a></li>
-            <li><a href="#catalogo">JUEGOS</a></li>
-            <li><a href="#sectionLibros">LIBROS</a></li>
-            <li><a href="#contacto">CONTACTO</a></li>
+            <li><a href="#1">HOME</a></li>
+            <li><a href="#2">SINOPSIS</a></li>
+            <li><a href="#3">JUEGOS</a></li>
+            <li><a href="#4">LIBROS</a></li>
+            <li><a href="#5">CONTACTO</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <section class="seccionHome">
+  <section class="seccionHome" id="1">
     <p class="textoHomeBienvenida">Bienvenidos</p>
     <button class="botonExplorar">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -54,6 +54,7 @@
     </button>
 
   </section>
+
   <section class="sinopsis">
 
     <div class="iFrame">
@@ -68,7 +69,6 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/UAx7dIpjn2E?si=YrLNmYdr0QaTKSvq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/XmQQ1PX8kg0?si=9-aXvInEDFB9JhKf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           -->
-    </div>
     <div class="contenedorTextoSinopsis">
 
       <p class="textoSinopsis"> La historia cuenta que, en el principio de los tiempos, la Tierra estaba habitada por
@@ -124,32 +124,35 @@
 
   <!----------------------------Sinopsis----------------------------------->
 
-  <section class="sectionJuegosCarrousel">
-    <h4 class="text"></h4>
+  <section class="sectionJuegosCarrousel" id="3">
+    <h4 class="text">Catalogo</h4>
     <div class="contenedorDeImagenes">
       <div class="carta">
         <article class="AssassinsCreed"><img src="./img/ac1.jpg" alt="AssassinsCreed" id="AssassinsCreed"></article>
-        <div class="epigrafe"><a class="enlace"
+        <div class="epigrafe"><a class="enlace" target="_blank"
             href="https://www.ubisoft.com/es-mx/game/assassins-creed/assassins-creed">Assassin's Creed</a></div>
 
       </div>
       <div class="carta">
         <article class="Brotherhood"><img src="./img/acbrotherhood.jpg" id="Brotherhood" alt="Brotherhood"></article>
-        <div class="epigrafe"><a class="enlace"
+        <div class="epigrafe"><a class="enlace" target="_blank"
             href="https://www.ubisoft.com/es-mx/game/assassins-creed/brotherhood">Assassin's Creed Brotherhood</a>
         </div>
       </div>
       <div class="carta">
         <article class="Origins"><img src="./img/acorigins.jpg" id="Origins" alt="Origins"></article>
-        <div class="epigrafe"><a class="enlace"
+        <div class="epigrafe"><a class="enlace" target="_blank"
             href="https://www.ubisoft.com/es-mx/game/assassins-creed/origins">Assassin's Creed Origins</a></div>
 
       </div>
       <div class="carta">
         <article class="Rogue"><img src="./img/acrogue.jpg" id="Rogue" alt="Rogue"></article>
-        <div class="epigrafe"><a class="enlace"
+        <div class="epigrafe"><a class="enlace" target="_blank"
             href="https://www.ubisoft.com/es-mx/game/assassins-creed/rogue-remastered">Assassin's Creed Rogue</a>
         </div>
+      </div>
+      <div class="todos">
+
       </div>
     </div>
     <div class="botonTodosLosJuegos"><button class="button">Todos los juegos</button></div>
@@ -158,7 +161,7 @@
 
   <!----------------------------Libros------------------------------------->
 
-  <section class="sectionLibros">
+  <section class="sectionLibros" id="4">
     <div>
       <h4 class="tituloLibros"> Libros </h4>
     </div>
@@ -275,8 +278,8 @@
       </p>
     </div>
   </section>
-  </section>
-  <section class="section contacto">
+ 
+  <section class="section contacto" id="5">
     <div class="contenedorFormulario">
       <div class="contenedorContacto">
         <img class="imagenContacto" src="img/pxfuel(1920x400)final.jpg" alt=" Assassin´s Creed">
@@ -290,7 +293,7 @@
           <input class="formItem email" type="email" placeholder="Dirección de email">
           <div class="checkBox">
             <input class="inputCheckBox" type="checkbox" id="politicasDePrivacidad">
-            <span class="texto" for="politicasDePrivacidad">Acepto la <a href="">Política de Privacidad</a>. (Puedas
+            <span class="texto">Acepto la <a href="">Política de Privacidad</a>. (Puedas
               darte de baja
               en
               cualquier momento.) </span>
@@ -300,7 +303,7 @@
           <p class="texto textoArchivo">¿Tenes dificultades para pasar un nivel? Subí una captura del juego y te
             ayudamos (opcional)
           </p>
-          <input class="inputArchivo" type="file" name="image" id="">
+          <input class="inputArchivo" type="file" name="image">
         </div>
         <div class="contenedorDelSelect">
           <p class="texto preguntaDelSelect">¿Como te enteraste de nuestra pagina? (opcional)</p>
@@ -332,6 +335,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script src="js/formulario.js"></script>
+  <script src="js/catalogo.js"></script>
 </body>
 
 
