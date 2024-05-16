@@ -1,3 +1,31 @@
+.contenedorPelicula {
+    width: 40vw;
+    height: fit-content;
+    padding-bottom: 5vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.trailerPelicula {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* padding-bottom: 75%; */
+    height: 0;
+    overflow: hidden;
+}
+
+.trailerPelicula iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 .tituloPelicula {
     font-family: "Trajan Pro Bold", sans-serif;
     color: whitesmoke;
@@ -17,7 +45,7 @@
     align-content: space-between;
 }
 
-.sectionPelicula div {
+.sectionPelicula {
     padding: 2%;
     gap: 40px;
     align-content: center;
@@ -30,7 +58,7 @@
     align-content: center;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgba(255, 153, 153, 0.92);
+    color: rgba(255, 153, 153, 0.92);
     list-style: none;
     text-decoration: none;
     font-weight: bolder;
@@ -41,12 +69,64 @@
 
 .textoPelicula {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgb(255, 184, 184);
-    text-decoration:none;
+    color: rgb(255, 184, 184);
+    text-decoration: none;
     text-align: center;
     width: 85vw;
     font-size: 1vw;
 }
+
+@media screen and (max-width:766px) {
+    .sectionPelicula {
+        flex-direction: column;
+    }
+
+    .contenedorPelicula {
+        height: 45%;
+        width: 65%;
+    }
+
+    .sectionPelicula {
+        gap: 0;
+        padding: 5%
+    }
+
+    .tituloPelicula {
+        font-size: 3.5em;
+        padding-top: 0;
+    }
+
+    .textoPelicula {
+        font-size: 1.5em;
+    }
+
+    .listaPelicula li {
+        font-size: .8em;
+    }
+}
+
+/* @media screen and (min-width:768px) {
+    .sectionPelicula {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, auto);
+        gap: 1em;
+
+    }
+
+    .tituloPelicula {
+        grid-area: 1/2 /span 2 /span 3;
+    }
+
+    .trailerPelicula {
+        padding: 14%;
+        grid-area: 2/1 / 1 /2;
+    }
+
+    .contenedorListaPelicula {
+        grid-area: 1/2 /span 2 /span 3;
+    }
+} */
 
 /*--------------------------------M.Queries 320px-------------------------------------------------------*/
 /*

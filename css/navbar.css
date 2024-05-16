@@ -1,14 +1,8 @@
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .navbar {
   background-color: #000;
   color: #fff;
-  font-size: 16px;
-  padding: 10px;
+  font-size: 2em;
+  padding: 1em;
 }
 
 .navbar-container {
@@ -25,7 +19,8 @@ body {
 .icono-navbar {
   width: 30px;
   height: auto;
-  margin-right: 15px; /* Espacio entre el icono y el texto */
+  margin-right: 15px;
+  /* Espacio entre el icono y el texto */
 }
 
 .navbar-links ul {
@@ -44,6 +39,7 @@ body {
 }
 
 .navbar-links ul li a {
+  font-family: "Trajan Pro Bold", sans-serif;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;

@@ -1,9 +1,22 @@
-
+.sinopsis {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.975);
+    margin-top: 0rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding: 3em;
+    gap: 1em;
+}
 
 .tituloSinopsis {
     font-family: "Trajan Pro Bold", sans-serif;
     color: whitesmoke;
-    font-size: 4vw;
+    font-size: 7vw;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1em;
@@ -11,77 +24,68 @@
     -webkit-text-stroke: 0.4px rgb(222, 0, 0);
 }
 
+.contenedorTextoSinopsis {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
 .textoSinopsis {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgb(164, 211, 255);
+    color: rgb(164, 211, 255);
     font-size: 1.8vh;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
-    font-weight:inherit;
-    padding: 2rem;
+    font-weight: inherit;
+    padding: 1.5rem;
     text-shadow: 1px 1px 1px 1px rgb(20, 140, 253);
     -webkit-text-stroke: 0.3px rgba(34, 0, 255, 0.965);
 }
 
-.sinopsis {
-    background-color: rgba(0, 0, 0, 0.975);
-    margin-top: 1%;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
-    padding: 2%;
-    gap: 40px;
+.textoSinopsis::first-letter {
+    font-size: 4.8vh;
+    margin-right: 0.1em;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* padding-bottom: 75%; */
+    height: 0;
+    overflow: hidden;
+}
 
-/*--------------------------------M.Queries 320px-------------------------------------------------------*/
-/*
-@media screen and (min-width:320px) {
-    .tituloSinopsis {
-        font-size: 10vw;
-    }
-    
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media screen and (min-width:769px) {
     .sinopsis {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgba(0, 0, 0, 0.975);
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .textoSinopsis {
-        text-align: center;
-        line-height: 1.5;
-        font-weight:inherit;
-        margin: 0.1em;
-        font-size: 4.4vw;
+
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, auto);
+        gap: 1em;
     }
 
-    .sinopsis iframe {
-        width: 280px;
-        height: 280px;
-    } 
-}
-
-/*--------------------------------M.Queries 768px-------------------------------------------------------*/
-/*
-@media screen and (min-width: 768px) {
     .tituloSinopsis {
-        font-size: 7.5vw;
-    }
-    
-    .sinopsis iframe {
-        width: 620px;
-        height: 480px;  
+        font-size: 3.5vw;
+        grid-area: 1/1 / span 1 / span 1;
     }
 
-    .textoSinopsis {
-        text-align: center;
-        line-height: 1.5;
-        font-weight:inherit;
-        font-size: 2.1vw;
+    .contenedorTextoSinopsis {
+
+        grid-area: 1/2 /span 2 /span 3;
+    }
+
+    .iFrame {
+        grid-area: 2/1 / 1 /2;
     }
 }
