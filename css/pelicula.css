@@ -82,8 +82,8 @@
     }
 
     .contenedorPelicula {
-        height: 10%;
-        width: 45%;
+        height: 45%;
+        width: 65%;
     }
 
     .sectionPelicula {
@@ -92,8 +92,16 @@
     }
 
     .tituloPelicula {
-        font-size: 3.5vw;
+        font-size: 3.5em;
         padding-top: 0;
+    }
+
+    .textoPelicula {
+        font-size: 1.5em;
+    }
+
+    .listaPelicula li {
+        font-size: .8em;
     }
 }
 
