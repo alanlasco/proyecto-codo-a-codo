@@ -49,4 +49,8 @@
         width: 140px;
         height: 220px;
     }
+
+    .tituloLibros {
+        font-size: 3.5vh;
+    }
 }
