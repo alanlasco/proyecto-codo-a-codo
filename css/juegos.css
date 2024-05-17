@@ -1,10 +1,11 @@
 @media screen and (max-width: 768px) {
   .text {
     margin: .8em;
-    font-family: "Trajan Pro Bold",
-      sans-serif;
-    ;
-    font-size: 4em;
+    font-family: "Trajan Pro Bold", sans-serif;
+    color: whitesmoke;
+    text-shadow: 3px 5px 5px rgb(7, 127, 239);
+    -webkit-text-stroke: 0.3px rgb(15, 15, 14);
+    font-size: 4vh;
   }
 
   .contenedorDeImagenes,
@@ -50,7 +51,8 @@
 
   .enlace {
     text-decoration: none;
-    color: #510812;
+    color: #419fec;
+    /*color: #510812;*/
     font-size: 2.3em;
     width: 100%;
   }
@@ -119,9 +121,10 @@
 
   .text {
     margin: .5em;
-    font-family: "Trajan Pro Bold",
-      sans-serif;
-    ;
+    font-family: "Trajan Pro Bold", sans-serif;
+    color: whitesmoke;
+    text-shadow: 3px 5px 5px rgb(7, 127, 239);
+    -webkit-text-stroke: 0.3px rgb(15, 15, 14);
     font-size: 5vw;
   }
 
@@ -161,7 +164,8 @@
 
   .enlace {
     text-decoration: none;
-    color: #4a0e16;
+    color: #419fec;
+    /*color: #4a0e16;*/
     font-size: 2.5em;
     width: 100%;
     text-align: center;

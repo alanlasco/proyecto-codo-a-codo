@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 62.5%;
+  background-color: rgba(7, 6, 6, 0.936);
 }
 .nav {
   text-align: center;
@@ -16,10 +17,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin:auto;
+  font-family: "Trajan Pro Bold", sans-serif;
   height: 120px; 
-  background-color: #333; 
+  font-size: 2vh;
+  background-color: rgba(7, 6, 6, 0.936);
+  text-shadow: 3px 5px 5px rgb(254, 99, 47);
+  -webkit-text-stroke: 0.4px rgb(222, 0, 0);
 }
 
 .textFooter {
-  color: white; 
+  color: whitesmoke; 
 }
