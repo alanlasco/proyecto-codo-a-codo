@@ -33,18 +33,42 @@
           <ul>
             <li><a href="#1">HOME</a></li>
             <li><a href="#2">SINOPSIS</a></li>
-            <li><a href="#3">JUEGOS</a></li>
+            <li><a href="#seccion3">JUEGOS</a></li>
             <li><a href="#4">LIBROS</a></li>
             <li><a href="#5">CONTACTO</a></li>
           </ul>
         </div>
       </div>
     </nav>
-  </header>
+    <nav class="navbarResponsive">
+      <div class="header">
+        <div class="navbar-logo">
+          <img src="img/Iconito.png" alt="Assassin's Creed Logo" class="icono-navbar">
+        </div>
+      </div>
+      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+      <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </label>
 
+      <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+          <li><a href="#1">HOME</a></li>
+          <li><a href="#2">SINOPSIS</a></li>
+          <li><a href="#seccion3">JUEGOS</a></li>
+          <li><a href="#4">LIBROS</a></li>
+          <li><a href="#5">CONTACTO</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="separadorTop"></div>
   <section class="seccionHome" id="1">
     <p class="textoHomeBienvenida">Bienvenidos</p>
-    <button class="botonExplorar">
+    <p class="subTextoBienvenida">"Nada es verdad, todo esta permitido"</p>
+    <button class="botonExplorar" data-target="#seccion3">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
         <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <path
@@ -124,7 +148,7 @@
 
   <!----------------------------Sinopsis----------------------------------->
 
-  <section class="sectionJuegosCarrousel" id="3">
+  <section class="sectionJuegosCarrousel" id="seccion3">
     <h4 class="text">Catalogo</h4>
     <div class="contenedorDeImagenes">
       <div class="carta">
@@ -272,7 +296,8 @@
         pero presenta una historia original que expande la mitología de la serie. <br>
         La trama sigue a un hombre moderno
         llamado
-        "Callum Lynch" (Michael Fassbender) quien, a través de una máquina llamada "Animus", una tecnología revolucionaria
+        "Callum Lynch" (Michael Fassbender) quien, a través de una máquina llamada "Animus", una tecnología
+        revolucionaria
         que permite
         el acceso a los recuerdos genéticos, explora los recuerdos de su antepasado "Aguilar de Nerja", miembro de la
         "Secta de los Asesinos",
@@ -282,7 +307,7 @@
       </p>
     </div>
   </section>
- 
+
   <section class="section contacto" id="5">
     <div class="contenedorFormulario">
       <div class="contenedorContacto">
@@ -340,6 +365,7 @@
     crossorigin="anonymous"></script>
   <script src="js/formulario.js"></script>
   <script src="js/catalogo.js"></script>
+  <script src="js/home.js"></script>
 </body>
 
 
