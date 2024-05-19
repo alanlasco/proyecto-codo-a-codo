@@ -43,7 +43,7 @@
 
 /*--------------------------------M.Queries 320px-------------------------------------------------------*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
 
     .sectionLibros div img {
         width: 140px;
