@@ -92,7 +92,6 @@ document.querySelector(".button").addEventListener("click", () => {
     todos.style.display = "none";
     setName("Todos los juegos");
   }
-  console.log("Se cambió el nombre");
 });
 
 // Render inicial
