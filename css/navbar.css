@@ -74,7 +74,9 @@
 .sidebarMenuInner li a {
   color: #fff;
   text-transform: uppercase;
-  font-family: "Trajan ";
+  font-family: "Trajan Pro Bold",
+    sans-serif;
+  font-size: 1.5em;
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;

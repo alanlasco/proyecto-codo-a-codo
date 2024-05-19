@@ -28,16 +28,16 @@
   color: whitesmoke;
   text-align: center;
   font-size: 5.5vw;
-  padding-bottom: 2em;
+  padding-bottom: 1.2em;
   text-shadow: 2px 5px 5px rgb(6, 6, 6);
   -webkit-text-stroke: 0.1px black;
-  opacity: 0;
-  animation: aparecer 3s forwards;
+  opacity: 1;
+  animation: aparecer 4s forwards;
 }
 
 @keyframes aparecer {
   to {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
