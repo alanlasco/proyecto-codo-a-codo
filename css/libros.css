@@ -1,5 +1,4 @@
 .sectionLibros {
-
     background-color: rgba(0, 0, 0, 0.975);
     justify-content: center;
     text-align: center;
@@ -8,11 +7,11 @@
 }
 
 .sectionLibros div img {
-    padding: 1rem;
+    padding: 1.5em;
     width: 380px;
     height: 520px;
     border-radius: 0.8%;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .carouselLibros {
@@ -25,7 +24,7 @@
     align-items: center;
     align-content: center;
     padding-bottom: 2rem;
-    padding-top: 1rem;
+    padding-top: 1.5em;
 }
 
 .tituloLibros {
