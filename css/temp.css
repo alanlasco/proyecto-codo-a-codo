@@ -10,7 +10,14 @@ body {
   padding: 0;
   margin: 0;
   font-size: 62.5%;
-  background-color: rgba(7, 6, 6, 0.936);
+  /*background-color: rgb(1, 1, 39); 
+  background-color: rgba(5, 0, 34, 0.936);
+  azul francia medio*/
+
+  /*background-color: rgb(12, 10, 23);
+  background-color: rgba(7, 6, 6, 0.936); azul marino oscuro*/
+
+  background-color: rgba(5, 2, 19, 0.936); /*azul marino*/
 }
 
 .nav {
@@ -28,13 +35,25 @@ footer {
   align-items: center;
   margin: auto;
   font-family: "Trajan Pro Bold", sans-serif;
-  height: 120px;
-  font-size: 2vh;
-  background-color: rgba(7, 6, 6, 0.936);
-  text-shadow: 3px 5px 5px rgb(254, 99, 47);
-  -webkit-text-stroke: 0.4px rgb(222, 0, 0);
+  height: 160px;
+  padding: 2em;
+  font-size: 2.1vh;
+  font-weight: bolder;
+  flex-direction: column;
+   /*background-color: rgba(26, 1, 1, 0.936);*/
+  background-color: rgb(34,0,0);
+  background-image: linear-gradient(0deg, rgb(33, 12, 5) 0%, rgb(94, 55, 1) 35%, rgb(155, 101, 27) 60%, rgb(203, 117, 12) 80%, rgb(211, 162, 103) 100%);
+  text-shadow: 3px 5px 5px rgb(129, 32, 0);
+  -webkit-text-stroke: 0.4px rgb(128, 0, 0);
 }
 
+
 .textFooter {
-  color: whitesmoke;
+  margin: 1rem;
+  color: rgb(12, 1, 1);
+}
+
+.imagenFooter {
+  width: 240px;
+  height: auto;
 }
