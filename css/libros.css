@@ -1,0 +1,55 @@
+.sectionLibros {
+    background-color: rgba(0, 0, 0, 0.975);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sectionLibros div img {
+    padding: 1.5em;
+    width: 380px;
+    height: 520px;
+    border-radius: 0.8%;
+    margin-bottom: 1.5em;
+}
+
+.carouselLibros {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgba(64, 0, 0, 0.737);
+    align-items: center;
+    align-content: center;
+    padding-bottom: 2rem;
+    padding-top: 1.5em;
+}
+
+.tituloLibros {
+    font-family: "Trajan Pro Bold", sans-serif;
+    color: whitesmoke;
+    font-size: 6vw;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-shadow: 2px 5px 5px rgb(255, 77, 0);
+    -webkit-text-stroke: 0.3px rgba(22, 21, 21, 0.768);
+}
+
+
+
+/*--------------------------------M.Queries 320px-------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+    .sectionLibros div img {
+        width: 140px;
+        height: 220px;
+    }
+
+    .tituloLibros {
+        font-size: 3.5vh;
+    }
+}

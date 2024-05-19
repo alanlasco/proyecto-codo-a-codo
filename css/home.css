@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Trajan Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trajan Pro Regular"),
+    url("../fonts/TrajanPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Trajan Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trajan Pro Bold"),
+    url("../fonts/TrajanPro-Bold.woff") format("woff");
+}
+
+.textoHomeBienvenida {
+  margin-top: 1em;
+  font-family: "Trajan Pro Bold", sans-serif;
+  color: whitesmoke;
+  font-size: 12vw;
+  text-align: center;
+  text-shadow: 2px 5px 5px rgb(6, 6, 6);
+  -webkit-text-stroke: 0.3px black;
+}
+
+.subTextoBienvenida {
+  font-family: "Trajan Pro Bold", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 5.5vw;
+  padding-bottom: 1.2em;
+  text-shadow: 2px 5px 5px rgb(6, 6, 6);
+  -webkit-text-stroke: 0.1px black;
+  opacity: 1;
+  animation: aparecer 6s forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .textoHomeBienvenida {
+    font-size: 9.5vw;
+  }
+
+  .subTextoBienvenida {
+    font-size: 2.5vw;
+  }
+}
+
+
+
+.separadorTop {
+  padding: 3em;
+}
+
+.seccionHome {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/ac-home-prueba.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 0.5rem;
+}
+
+.botonExplorar {
+  margin-bottom: 10vh;
+  padding: 0.8rem 2rem;
+  border: 1px solid #2c2c2c;
+  display: flex;
+  align-items: center;
+
+  background-color: #1a1a1a;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+
+.botonExplorar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 70%);
+  transform: scale(0);
+  transition: transform 0.5s ease;
+}
+
+.botonExplorar:hover::after {
+  transform: scale(4);
+}
+
+.botonExplorar:hover {
+  border-color: #666666;
+  background: #292929;
+}
+
+.botonExplorar svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.5rem;
+  fill: antiquewhite;
+}
+
+.assassinscreedLogoHome {
+  width: 70%;
+  height: 60%;
+}
