@@ -64,7 +64,7 @@ function render() {
   button.textContent = name();
 }
 
-const todos = document.querySelector(".contenedorDeImagenes");
+const todos = document.querySelector(".todos");
 
 //evento de clic del botón
 document.querySelector(".button").addEventListener("click", () => {
