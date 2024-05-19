@@ -15,6 +15,7 @@
 }
 
 .textoHomeBienvenida {
+  margin-top: 1em;
   font-family: "Trajan Pro Bold", sans-serif;
   color: whitesmoke;
   font-size: 12vw;
@@ -32,7 +33,7 @@
   text-shadow: 2px 5px 5px rgb(6, 6, 6);
   -webkit-text-stroke: 0.1px black;
   opacity: 1;
-  animation: aparecer 4s forwards;
+  animation: aparecer 6s forwards;
 }
 
 @keyframes aparecer {
