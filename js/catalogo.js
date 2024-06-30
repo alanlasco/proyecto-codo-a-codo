@@ -23,7 +23,7 @@ function render() {
 // Función para obtener los datos de la API
 const fetchCatalogo = async () => {
   try {
-    const response = await fetch("http://localhost:3000/juegos");
+    const response = await fetch("https://11fca4b9-0b99-41cf-a9bd-a758b35ab4e1-00-h58umsv6vo8l.spock.replit.dev/juegos");
     const data = await response.json();
     catalogo = data;
     renderCatalogo();
